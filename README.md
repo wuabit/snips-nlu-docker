@@ -1,4 +1,4 @@
-#Snips NLU docker base image
+## Snips NLU docker base image
 
 This docker image contains the latest [Snips-AI](https://www.snips.ai/) [NLU engine](https://github.com/snipsco/snips-nlu) with [all language resources](https://snips-nlu.readthedocs.io/en/latest/languages.html) preloaded. Making easily used as a base image.
 
