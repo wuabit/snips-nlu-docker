@@ -3,8 +3,8 @@
 # https://docs.docker.com/docker-hub/builds/advanced/
 
 echo "Build hook running"
-VERSION=`cat VERSION`
+
 docker build --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
              --build-arg VCS_REF=`git rev-parse --short HEAD` \
-             --build-arg $VERSION \
-             -t $IMAGE_NAME:$VERSION .
+             --build-arg VERSION=`cat VERSION` \
+             -t $IMAGE_NAME .
