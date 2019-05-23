@@ -18,7 +18,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/wuabit/snips-nlu-docker" \
       org.label-schema.vendor="Wuabit" \
-      org.label-schema.version="$VERSION_$SNIPS_VERSION" \
+      org.label-schema.version="${VERSION}_${SNIPS_VERSION}" \
       org.label-schema.schema-version="1.0"
 
 RUN pip install snips-nlu==$SNIPS_VERSION \

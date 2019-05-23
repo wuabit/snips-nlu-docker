@@ -1,5 +1,5 @@
 [![](https://images.microbadger.com/badges/image/wuabit/snips-nlu.svg)](https://microbadger.com/images/wuabit/snips-nlu "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/wuabit/snips-nlu:1.19.6.svg)](https://microbadger.com/images/wuabit/snips-nlu:1.19.6 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/wuabit/snips-nlu:1.0.1.svg)](https://microbadger.com/images/wuabit/snips-nlu:1.0.1 "Get your own version badge on microbadger.com")
 
 ## Snips NLU docker base image
 
