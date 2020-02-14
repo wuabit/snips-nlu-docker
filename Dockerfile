@@ -10,7 +10,7 @@ RUN apt-get update -y \
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
-ARG SNIPS_VERSION=0.19.6
+ARG SNIPS_VERSION=0.20.2
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Snips NLU docker base image" \
       org.label-schema.description="This docker image contains the latest Snips-AI NLU engine with all language resources preloaded." \
