@@ -22,4 +22,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.schema-version="1.0"
 
 RUN pip install snips-nlu==$SNIPS_VERSION \
-    && python -m snips_nlu download-all-languages 
+    && python -m snips_nlu download-all-languages \
+    && python -m snips_nlu download-language-entities en 
